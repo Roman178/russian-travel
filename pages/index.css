@@ -298,5 +298,12 @@
 
   .to-baikal {
     background-size: contain;
+    margin: 0 -48px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .to-baikal {
+    min-height: 640px;
   }
 }
