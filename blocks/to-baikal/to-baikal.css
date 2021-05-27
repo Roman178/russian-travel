@@ -1,0 +1,43 @@
+.to-baikal {
+  min-height: 740px;
+  background-image: url("../../images/na-sobakah.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1279px) {
+  .to-baikal {
+    background-size: contain;
+  }
+}
+
+/* 
+  Уменьшение высоты секции у которой картинка на бэкграунде. 
+  Дополнительные брэйкпоинты проставил для того, чтобы в промежуточных размерах
+  не было больших отступов сверху и снизу (визуально, от картинки).
+*/
+
+@media screen and (max-width: 1180px) {
+  .to-baikal {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .to-baikal {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .to-baikal {
+    min-height: 330px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .to-baikal {
+    min-height: 200px;
+  }
+}

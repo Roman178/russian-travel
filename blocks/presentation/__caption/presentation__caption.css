@@ -1,0 +1,9 @@
+.presentation__caption {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 10px;
+  line-height: 140%;
+  align-self: flex-start;
+  margin-top: 8px;
+}

@@ -1,0 +1,10 @@
+.places__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .places__img {
+    justify-self: center;
+    width: calc(100% + 32px);
+  }
+}

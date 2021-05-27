@@ -1,0 +1,15 @@
+.presentation__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .presentation__img {
+    width: calc(100% + 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .presentation__img {
+    width: calc(100% + 32px);
+  }
+}

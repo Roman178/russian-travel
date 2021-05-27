@@ -1,0 +1,9 @@
+.places__url-container {
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .places__url-container {
+    grid-area: url;
+  }
+}
