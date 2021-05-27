@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  .navbar__list_header {
+    flex-direction: row;
+    min-height: fit-content;
+  }
+}

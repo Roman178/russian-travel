@@ -1,0 +1,16 @@
+.navbar__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar__list {
+    flex-direction: column;
+    min-height: 248px;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
