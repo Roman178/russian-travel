@@ -1,4 +1,6 @@
-.to-baikal {
+.cover {
+  width: 100%;
+  justify-self: center;
   min-height: 740px;
   background-image: url("../../images/na-sobakah.jpg");
   background-size: cover;
@@ -7,37 +9,46 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .to-baikal {
+  .cover {
     background-size: contain;
+    width: calc(100% + 96px);
   }
 }
 
-/* 
-  Уменьшение высоты секции у которой картинка на бэкграунде. 
-  Дополнительные брэйкпоинты проставил для того, чтобы в промежуточных размерах
-  не было больших отступов сверху и снизу (визуально, от картинки).
-*/
+@media screen and (max-width: 1023px) {
+  .cover {
+    width: calc(100% + 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: calc(100% + 32px);
+  }
+}
+
+/* Дополнительные брейкпоинты. */
 
 @media screen and (max-width: 1180px) {
-  .to-baikal {
+  .cover {
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .to-baikal {
+  .cover {
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  .to-baikal {
+  .cover {
     min-height: 330px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .to-baikal {
+  .cover {
     min-height: 200px;
   }
 }

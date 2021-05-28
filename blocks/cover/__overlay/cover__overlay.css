@@ -1,4 +1,4 @@
-.to-baikal__overlay {
+.cover__overlay {
   position: relative;
   background-color: rgba(42, 44, 47, 0.3);
   width: 100%;
@@ -10,6 +10,6 @@
   transition: background-color 0.2s linear;
 }
 
-.to-baikal__overlay:hover {
+.cover__overlay:hover {
   background-color: rgba(42, 44, 47, 0.8);
 }

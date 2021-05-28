@@ -1,12 +1,18 @@
 .intro {
-  max-width: 690px;
-  align-self: flex-start;
-  padding-left: 100px;
+  width: 984px;
+  justify-self: center;
+  /* padding-left: 100px; */
 }
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
   .intro {
     padding: 0;
+  }
+} */
+
+@media screen and (max-width: 1079px) {
+  .intro {
+    width: 100%;
   }
 }
 
