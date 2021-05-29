@@ -1,4 +1,5 @@
 .cover {
+  max-width: 1184px;
   width: 100%;
   justify-self: center;
   min-height: 740px;
@@ -10,8 +11,13 @@
 
 @media screen and (max-width: 1279px) {
   .cover {
-    background-size: contain;
     width: calc(100% + 96px);
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .cover {
+    min-height: 640px;
   }
 }
 
@@ -24,19 +30,6 @@
 @media screen and (max-width: 767px) {
   .cover {
     width: calc(100% + 32px);
-  }
-}
-
-/* Дополнительные брейкпоинты. */
-
-@media screen and (max-width: 1180px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .cover {
     min-height: 480px;
   }
 }
