@@ -1,4 +1,31 @@
 .cover__main-link {
+  min-height: 740px;
   text-decoration: none;
   color: inherit;
+  background-color: rgba(42, 44, 47, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s linear;
+}
+
+.cover__main-link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1140px) {
+  .cover__main-link {
+    min-height: 640px;
+  }
+}
+@media screen and (max-width: 984px) {
+  .cover__main-link {
+    min-height: 480px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .cover__main-link {
+    min-height: 200px;
+  }
 }
